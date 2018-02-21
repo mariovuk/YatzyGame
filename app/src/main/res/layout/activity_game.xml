@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="How many players" />
+
+        <TextView
+            android:id="@+id/numberOfPlayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Number of players" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+            android:layout_below="@+id/numberOfPlayers"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Add a name for each player" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Name of players" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Name of players" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
